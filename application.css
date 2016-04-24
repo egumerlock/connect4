@@ -1,0 +1,29 @@
+.board {
+  width: 1400px;
+  height: 1200px;
+  background-color: yellow;
+  text-align: center;
+}
+
+.cell {
+  background-color: white;
+  margin: 0px;
+  width: 180px;
+  height: 180px;
+  border-radius: 500px;
+  border: 2px solid black;
+}
+
+.column2{
+  position: absolute;
+  margin-left: 1000px;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+  color: blue;
+}
