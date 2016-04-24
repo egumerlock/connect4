@@ -20,10 +20,9 @@
 }
 
 .red {
-  background-color: red;
+  background-image: url('images/sydney.jpeg');
 }
 
 .blue {
-  background-color: blue;
-  color: blue;
+  background-image: url('images/sbpete.png');
 }

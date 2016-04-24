@@ -23,10 +23,10 @@ $( document ).ready(function() {
         board[row-2][column] == board[row-3][column]) {
         win = true
       if (win == true && isOdd(player_turn) == false) {
-        alert("Red wins!")
+        alert("Scumbag Sydney Wins!!!!!")
         location.reload();
       } else if (win == true && isOdd(player_turn) == true){
-        alert("Blue wins!")
+        alert("Scumbag Pete Wins!!!!")
         location.reload();
       }
     }
@@ -38,11 +38,11 @@ $( document ).ready(function() {
     var row_checker = actual_row.join('')
     if (row_checker.includes("BBBB") == true) {
       win = true
-      alert("Blue wins!")
+      alert("Scumbag Pete Wins!!!!")
       location.reload();
     } else if (row_checker.includes("BBBB") == true) {
       win = true
-      alert("Red wins!")
+      alert("Scumbag Sydney Wins!!!!!")
       location.reload();
     }
 
@@ -63,11 +63,11 @@ $( document ).ready(function() {
     var line_checker = linear_line.join('')
     if (line_checker.includes("BBBB") == true) {
       win = true
-      alert("Blue wins!")
+      alert("Scumbag Pete Wins!!!!")
       location.reload();
     } else if (line_checker.includes("RRRR") == true) {
       win = true
-      alert("Red wins!")
+      alert("Scumbag Sydney Wins!!!!!")
       location.reload();
     }
   }
@@ -93,11 +93,11 @@ $( document ).ready(function() {
    console.log(inverse_checker)
    if (inverse_checker.includes("BBBB") == true) {
     win = true
-    alert("Blue wins!")
+    alert("Scumbag Pete Wins!!!!")
     location.reload();
   } else if (inverse_checker.includes("RRRR") == true) {
     win = true
-    alert("Red wins!")
+    alert("Scumbag Sydney Wins!!!!!")
     location.reload();
   }
 }
